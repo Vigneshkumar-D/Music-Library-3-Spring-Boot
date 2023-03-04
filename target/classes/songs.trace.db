@@ -1,0 +1,9 @@
+2023-03-04 06:33:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PLAYLIST" not found (this database is empty); SQL statement:
+select song0_.song_id as song_id1_0_, song0_.lyricist as lyricist2_0_, song0_.music_director as music_di3_0_, song0_.singer as singer4_0_, song0_.song_name as song_nam5_0_ from playlist song0_ [42104-214]
+2023-03-04 06:39:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PLAYLIST" not found (this database is empty); SQL statement:
+select song0_.song_id as song_id1_0_, song0_.lyricist as lyricist2_0_, song0_.music_director as music_di3_0_, song0_.singer as singer4_0_, song0_.song_name as song_nam5_0_ from playlist song0_ [42104-214]
+2023-03-04 06:43:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PLAYLIST" not found (this database is empty); SQL statement:
+select song0_.song_id as song_id1_0_0_, song0_.lyricist as lyricist2_0_0_, song0_.music_director as music_di3_0_0_, song0_.singer as singer4_0_0_, song0_.song_name as song_nam5_0_0_ from playlist song0_ where song0_.song_id=? [42104-214]
